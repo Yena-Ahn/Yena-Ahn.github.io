@@ -13,7 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Yena Ahn
-  tagline: University of Auckland Bachelor of Data Science
+  tagline: BSc Data Science University of Auckland
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
