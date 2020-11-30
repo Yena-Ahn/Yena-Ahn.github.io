@@ -13,8 +13,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: Yena Ahn
-  tagline: University of Auckland  
-  Data Science
+  tagline: University of Auckland Bachelor of Data Science
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -29,7 +28,7 @@ plainwhite:
   social_links:
     instagram: yenaahn_
     github:  blemVoH
-    linkedIn: in/samarsault
+    linkedIn: in/yenaahn/
     #rss: rss
     #dribbble: jekyll
     #flickr:   jekyll
