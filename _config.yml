@@ -38,6 +38,7 @@ plainwhite:
     #telegram: jekyll
     #gitlab: jekyll
 
+  disqus_shortname: blemvoh-github-io
     # Mastodon instances
     # mastodon:
     # - username: jekyll
