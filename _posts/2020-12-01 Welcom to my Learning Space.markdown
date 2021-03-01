@@ -10,7 +10,12 @@ Starting from *2021*, this blog will be a storage of every content I learn about
 
 These two books will be used to begin with; *Python: Machine Learning Pandas Data Analytics* and *Python Machine Learning Perfect Guide*. Both books are great, giving specific information and plenty of examples and codes to try. I hope these books help my learning.
 
+I'm trying *Kaggle* as well - as a beginner, this will be my self-learning project of machine learning. PLEASE do not mind my lame progress :) 
+
 ### Content
+#### Kaggle
+> 1. Walmart Recruiting - Store Sales Forecasting
+> > * Bike Sharing Demand
 #### Pandas Machine Learning Data Analytics
 > 1. Pandas Data Visualisation
 > 2. Data Preprocessing
