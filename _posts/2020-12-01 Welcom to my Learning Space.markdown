@@ -16,6 +16,7 @@ I'm trying *Kaggle* as well - as a beginner, this will be my self-learning proje
 #### Kaggle
 > 1. Walmart Recruiting - Store Sales Forecasting
 > > * Bike Sharing Demand
+> 
 #### Pandas Machine Learning Data Analytics
 > 1. Pandas Data Visualisation
 > 2. Data Preprocessing
