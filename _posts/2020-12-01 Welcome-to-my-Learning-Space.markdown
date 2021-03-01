@@ -14,11 +14,6 @@ I'm trying *Kaggle* as well - as a beginner, this will be my self-learning proje
 
 ### Content
 #### Kaggle
-> Walmart Recruiting - Store Sales Forecasting
-> > Bike Sharing Demand
-> 
-#### Pandas Machine Learning Data Analytics
-> Pandas Data Visualisation
-> Data Preprocessing
-> Application of Data Frame
-> Machine Learning Data Analysis
+> 2021-03-01
+> * Walmart Recruiting - Store Sales Forecasting
+> > * Bike Sharing Demand
