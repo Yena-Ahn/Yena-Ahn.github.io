@@ -2,7 +2,7 @@
 layout: post
 title:  "Walmart Recruiting - Store Sales Forecasting"
 date:   2021-03-01 01:08:00 +0900
-categories: Python Pandas
+categories: Python Pandas Numpy
 comments: true
 ---
 
@@ -151,6 +151,12 @@ sub.to_csv('sub.csv',index=False)
 ```
 
 **DONE!!!**
+
+### Let's see what my score is...
+![Score1](../assets/2021-03-01/WS1.png)
+![Score2](../assets/2021-03-01/WS2.png)
+
+Well, looks pretty fine! XD
 
 ----
 This was the simplest way of solving this challenge, but hope I get better and better in the future by trying more challenges and learning deeper of machine learning. 
