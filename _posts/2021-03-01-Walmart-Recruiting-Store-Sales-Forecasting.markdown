@@ -97,3 +97,62 @@ test2
 And... done for data preprocessing!
 
 ### Training a model
+I'm going to use this decent machine learning ensemble model to train and predict data sets - Random Forest. This model can be imported from ***sklearn*** and I will be using ***RandomForestRegressor*** as this challenge is about regression.
+
+```python
+from sklearn.ensemble import RandomForestRegressor 
+rf = RandomForestRegressor(n_jobs = 4)
+```
+
+***n_jobs = 4*** is to make the model work faster by using all the 'CPU's in the model.
+
+```python
+rf.fit(train2,train['Weekly_Sales'])
+output = rf.predict(test2)
+output
+```
+
+Using the preprocessed data - *train2.csv* - put into the model with columns we have to predict - *'Weekly_Sales'*.
+
+Then, we can get an output of prediction of *'test2.csv'*.
+
+```python
+array([22244.55823874, 22244.55823874, 22244.55823874, ...,
+         567.26728439,   567.26728439,   567.26728439])
+```
+
+### Submission
+As we got an output, we have to put this into the submission file.
+
+First, read the file and see what it looks like.
+
+```python
+sub = pd.read_csv('/kaggle/input/walmart-recruiting-store-sales-forecasting/sampleSubmission.csv.zip')
+sub
+```
+
+![Output5](/assets/2021-03-01/W5.png)
+
+Then we write the output we got on the file.
+
+```python
+sub['Weekly_Sales'] = output
+sub
+```
+
+and... this is the submission file we have to submit.
+
+![Output6](../assets/2021-03-01/W6.png)
+
+Import this file into **csv** file and delete indexes just to eliminate an occurence of errors.
+
+```python
+sub.to_csv('sub.csv',index=False)
+```
+
+**DONE!!!**
+
+----
+This was the simplest way of solving this challenge, but hope I get better and better in the future by trying more challenges and learning deeper of machine learning. 
+
+**BYE** :)
