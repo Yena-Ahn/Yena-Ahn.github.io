@@ -83,7 +83,7 @@ train2 = train.drop(columns=['Date', 'Weekly_Sales'])
 train2
 ```
 
-![Output3](../assets/2021-03-01/W3.png)
+![Output3](https://user-images.githubusercontent.com/75198944/110883040-310f1500-8326-11eb-8203-7fbf0c18b8f9.png)
 
 Same process for ***test.csv*** data set - elmination of **[Date]** column and assignment to a variable ***'test2.csv'***.
 
@@ -92,7 +92,8 @@ test2 = test.drop(columns = 'Date')
 test2
 ```
 
-![Output4](../assets/2021-03-01/W4.png)
+![Output4](https://user-images.githubusercontent.com/75198944/110883118-4edc7a00-8326-11eb-8416-c8142e281732.png)
+
 
 And... done for data preprocessing!
 
@@ -142,7 +143,7 @@ sub
 
 and... this is the submission file we have to submit.
 
-![Output6](../assets/2021-03-01/W6.png)
+![Output6](https://user-images.githubusercontent.com/75198944/110883177-6a478500-8326-11eb-8136-181bc56bf106.png)
 
 Import this file into **csv** file and delete indexes just to eliminate an occurence of errors.
 
@@ -153,8 +154,8 @@ sub.to_csv('sub.csv',index=False)
 **DONE!!!**
 
 ### Let's see what my score is...
-![Score1](../assets/2021-03-01/WS1.png)
-![Score2](../assets/2021-03-01/WS2.png)
+![Score1](https://user-images.githubusercontent.com/75198944/110883247-80554580-8326-11eb-9369-2fece534e280.png)
+![Score2](https://user-images.githubusercontent.com/75198944/110883252-821f0900-8326-11eb-9573-f0dec33b5f62.png)
 
 Well, looks pretty fine! XD
 
