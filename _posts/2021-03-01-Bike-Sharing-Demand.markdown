@@ -36,10 +36,11 @@ train
 test
 ```
 
-**train.csv:**
-![Output1](/assets/2021-03-01/B1.png)
-**test.csv:**
-![Output2](https://user-images.githubusercontent.com/75198944/110883422-cb6f5880-8326-11eb-9aae-89c5d515e2cb.png)
+**train.csv:**<br/>
+![Output1](/assets/2021-03-01/B1.png)<br/>
+
+**test.csv:**<br/>
+![Output2](https://user-images.githubusercontent.com/75198944/110883422-cb6f5880-8326-11eb-9aae-89c5d515e2cb.png)<br/>
 
 ### Data Preprocessing
 ```python
@@ -48,10 +49,10 @@ test2 = test.drop(columns = 'datetime')
 train2
 test2
 ```
-**train2.csv:**
-![Output3](https://user-images.githubusercontent.com/75198944/110883428-cd391c00-8326-11eb-8edf-a739a16bbab0.png)
-**test2.csv:**
-![Output4](https://user-images.githubusercontent.com/75198944/110883435-cf02df80-8326-11eb-8044-2553b4c379e8.png)
+**train2.csv:**<br/>
+![Output3](https://user-images.githubusercontent.com/75198944/110883428-cd391c00-8326-11eb-8edf-a739a16bbab0.png)<br/>
+**test2.csv:**<br/>   
+![Output4](https://user-images.githubusercontent.com/75198944/110883435-cf02df80-8326-11eb-8044-2553b4c379e8.png)<br/>
 
 ### Training a Model
 ```python
@@ -72,8 +73,8 @@ array([183.87666667,  61.98916667,  61.98916667, ...,  74.62333333,
 sub = pd.read_csv('/kaggle/input/bike-sharing-demand/sampleSubmission.csv')
 sub
 ```
-**Output**
-![Output5](https://user-images.githubusercontent.com/75198944/110883451-d629ed80-8326-11eb-8d0b-95274dd169ee.png)
+**Output**<br/>
+![Output5](https://user-images.githubusercontent.com/75198944/110883451-d629ed80-8326-11eb-8d0b-95274dd169ee.png)<br/>
 
 
 Put the output into the submission file.
