@@ -39,7 +39,7 @@ test
 **train.csv:**
 ![Output1](/assets/2021-03-01/B1.png)
 **test.csv:**
-![Output2](../assets/2021-03-01/B2.png)
+![Output2](https://user-images.githubusercontent.com/75198944/110883422-cb6f5880-8326-11eb-9aae-89c5d515e2cb.png)
 
 ### Data Preprocessing
 ```python
@@ -49,9 +49,9 @@ train2
 test2
 ```
 **train2.csv:**
-![Output3](../assets/2021-03-01/B3.png)
+![Output3](https://user-images.githubusercontent.com/75198944/110883428-cd391c00-8326-11eb-8edf-a739a16bbab0.png)
 **test2.csv:**
-![Output4](../assets/2021-03-01/B4.png)
+![Output4](https://user-images.githubusercontent.com/75198944/110883435-cf02df80-8326-11eb-8044-2553b4c379e8.png)
 
 ### Training a Model
 ```python
@@ -73,7 +73,8 @@ sub = pd.read_csv('/kaggle/input/bike-sharing-demand/sampleSubmission.csv')
 sub
 ```
 **Output**
-![Output5](../assets/2021-03-01/B5.png)
+![Output5](https://user-images.githubusercontent.com/75198944/110883451-d629ed80-8326-11eb-8d0b-95274dd169ee.png)
+
 
 Put the output into the submission file.
 
@@ -81,7 +82,7 @@ Put the output into the submission file.
 sub['count'] = output
 sub
 ```
-![Output6](../assets/2021-03-01/B6.png)
+![Output6](https://user-images.githubusercontent.com/75198944/110883461-d88c4780-8326-11eb-9c93-e714a3190640.png)
 
 And... Get ready to submit!
 
@@ -91,4 +92,4 @@ sub.to_csv('sub.csv', index = False)
 
 ### Let's see what my score is...
 ![Score1](/assets/2021-03-01/BS1.png)
-![Score2](../assets/2021-03-01/BS2.png)
+![Score2](https://user-images.githubusercontent.com/75198944/110883465-db873800-8326-11eb-9a42-16b07e925942.png)
