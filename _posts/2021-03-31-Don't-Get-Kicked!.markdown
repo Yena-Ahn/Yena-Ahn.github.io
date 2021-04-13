@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Don't Get Kicked!"
+date:   2021-03-31 12:30:00 +0900
+categories: Python Pandas Seaborn 
+comments: true
+---
+
 This challenge is to predict if the used car at an auto auction is a *Kick* (Bad buy) - the risk of that vehicle might have serious issues which prevent it from being sold to customers. 
 
 ```python
