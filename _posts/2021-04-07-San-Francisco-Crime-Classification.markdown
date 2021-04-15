@@ -214,4 +214,9 @@ sub.to_csv('sub.csv', index = False)
 **sub.csv** <br/>
 ![Output6](https://user-images.githubusercontent.com/75198944/114529795-46f55a00-9c85-11eb-849b-68ba42e8ab2b.png) <br/>
 
+### Score
+![Output7](https://user-images.githubusercontent.com/75198944/114888470-3a6b3000-9e44-11eb-850c-ef86e00b0063.png) <br/>
+![Output8](https://user-images.githubusercontent.com/75198944/114888847-8ddd7e00-9e44-11eb-8e23-a7ad9383c81d.png) <br/>
+
+The actual score is about 0.1 higher than the predicted score we've got on the previous stage.
 
