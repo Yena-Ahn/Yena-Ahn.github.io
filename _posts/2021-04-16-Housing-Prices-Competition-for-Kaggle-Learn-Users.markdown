@@ -16,6 +16,8 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
     for filename in filenames:
         print(os.path.join(dirname, filename))
 ```
+<br/>
+
 ```python
 /kaggle/input/home-data-for-ml-course/sample_submission.csv
 /kaggle/input/home-data-for-ml-course/sample_submission.csv.gz
@@ -25,6 +27,8 @@ for dirname, _, filenames in os.walk('/kaggle/input'):
 /kaggle/input/home-data-for-ml-course/train.csv
 /kaggle/input/home-data-for-ml-course/test.csv
 ```
+<br/>
+
 ```python
 train = pd.read_csv('/kaggle/input/home-data-for-ml-course/train.csv')
 test = pd.read_csv('/kaggle/input/home-data-for-ml-course/test.csv')
